@@ -1,0 +1,19 @@
+<div class="image-container">
+
+{{#each pins as |pin|}}
+
+
+
+<li class="pin-thumb">
+    <a href="{{pin.url}}"><img src="{{pin.url}}" alt=""/></a>
+    <div class="pin-caption">
+        <p>{{pin.caption}}</p>
+    </div>
+</li>
+
+
+{{/each}}
+
+
+{{yield}}
+</div>
