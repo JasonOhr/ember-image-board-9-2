@@ -1,5 +1,5 @@
 import Ember from 'ember';
-
+//The main app route
 export default Ember.Route.extend({
   actions: {
     addImage: function(){

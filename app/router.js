@@ -9,6 +9,15 @@ Router.map(function() {
   this.route('pins', function() {
     this.route('add-image-portal');
   });
+  this.route('landing', {path: '/'});
+
+  this.route('sessions', function() {
+    this.route('create-portal');
+  });
+
+  this.route('users', function() {
+    this.route('create-portal');
+  });
 });
 
 export default Router;
