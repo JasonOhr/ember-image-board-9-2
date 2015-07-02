@@ -17,6 +17,7 @@ Router.map(function() {
 
   this.route('users', function() {
     this.route('create-portal');
+    this.route('show-portal');
   });
 });
 

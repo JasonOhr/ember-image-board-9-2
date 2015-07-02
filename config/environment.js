@@ -16,7 +16,11 @@ module.exports = function(environment) {
     APP: {
       applicationId: 'pmRW3GubmIf1wbiPm2P6r98YnqB2vi9VTcADWg2i',
       restApiId: 'oTP386J4aMONXDrCqxIYa0cNxtYwJYBMyhf1gIAk'
+    },
+    'simple-auth': {
+      routeAfterAuthentication: 'landing'
     }
+
   };
 
   if (environment === 'development') {
