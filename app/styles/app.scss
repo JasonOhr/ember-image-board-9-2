@@ -52,6 +52,7 @@ img
   height: 50px;
   background-color: #4B6F99;
   padding: 10px 30px;
+  position: relative;
 }
 .add-image-button {
   border: 2px solid black;
@@ -92,4 +93,22 @@ a {
 .input-label {
   margin-top: 10px;
   display: block;
+}
+.center {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top:6px;
+  right: 500px;
+}
+.add-image-input {
+  height: 30px;
+  width: 300px;
+}
+.add-image-btn {
+  height: 30px;
+  width: 50px;
+
 }

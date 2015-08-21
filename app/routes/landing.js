@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   beforeModel: function(){
     if(this.get('session.isAuthenticated')){
-      this.transitionTo('users.show-portal', this.get('session.secure.userId'))
+      this.transitionTo('users.show-portal', this.get('session.secure.userId'));
     }
   }
 });
